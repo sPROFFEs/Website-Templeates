@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="main-nav">
+                <a href="#lineup">Line Up</a>
+                <a href="#galery">Galery</a>
+                <a href="#tickets">Tickets</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="container video-container">
+                <h2>Rock & EDM Festival</h2>
+                <p>July 2022, Berlin, Germany</p>
+            </div>
+        </div>
+
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="container about-festival">
+        <div class="image">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="vocalist">
+            </picture>
+
+        </div>
+        <div class="festival-content">
+            <h2>Rock & EDM Festival</h2>
+            <p class="date">July 2022, Berlin, Germany</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel voluptate voluptatem, optio, eius odit
+                perferendis, esse dolorem eum aut eligendi atque nemo impedit deleniti officia adipisci dolores iure
+                unde nam.</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="day">Friday 21</p>
+
+        <div class="scenarios-container container">
+            <div class="scenario rock b-yellow">
+                <p class="scenario-name">Rock</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 | <span>KoRn</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Muse</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Breaking Benjamin</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="scenario edm b-green">
+                <p class="scenario-name">EDM</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Deadmau5</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Dash Berlin</span>
+                    </li>
+
+                    <li>
+                        18:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Audien</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="day">Saturday 22</p>
+
+        <div class="scenarios-container container">
+            <div class="scenario rock b-green">
+                <p class="scenario-name">Rock</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Killers</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deftones</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Limp Bizkit</span>
+                    </li>
+
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="scenario edm b-yellow">
+                <p class="scenario-name">EDM</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Paul Van Dyk</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Eric Prdyz</span>
+                    </li>
+
+                    <li>
+                        18:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="galery" class="galery container">
+        <h3>Galery</h3>
+
+        <ul class="img-galery">
+
+        </ul>
+    </section>
+
+    <section id="tickets" class="tickets b-green">
+        <h3>Tickets</h3>
+
+        <div class="container ticket-container">
+            <div class="basic pase">
+                <p class="nombre-pase">1 day ticket</p>
+                <header class="pase-header">
+                    <p>Includes</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Access to both stages</li>
+                        <li>Food and drinks</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>100€</p>
+                </footer>
+            </div>
+            <div class="premium pase">
+                <p class="nombre-pase">2 day ticket</p>
+                <header class="pase-header">
+                    <p>Includes</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Access to both stages</li>
+                        <li>Food and drinks</li>
+                        <li>Event T-Shirt</li>
+                        <li>VIP Access</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>180€</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>All rights reserved. © 2024 Pr0ff3</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+
+</html>
